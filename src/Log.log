@@ -1,0 +1,144 @@
+2014-12-11 19:17:19,277  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:36) =
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-11 19:27:15,271  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:35) =
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-11 21:48:56,781  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-11 22:03:30,853  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-11 22:04:51,143  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-11 22:05:35,663  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-11 22:08:31,299  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-17 22:03:02,235  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 18:58:00,704  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:00:45,329  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:01:43,159  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:09:23,238  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:11:09,032  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:12:18,770  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:21:54,113  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:23:44,016 ERROR model.parsers.Validator:model.parsers.Validator.validate(Validator.java:44) = 
+validation /home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is not valid because cvc-complex-type.2.4.a: Invalid content was found starting with element 'washingMachine'. One of '{"http://www.site.com":kettle, "http://www.site.com":termopot, "http://www.site.com":conditioner, "http://www.site.com":microwave, "http://www.site.com":oven, "http://www.site.com":dishwasher, "http://www.site.com":washing_Machine}' is expected.
+
+2014-12-18 19:24:28,858  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:25:59,990 ERROR model.parsers.Validator:model.parsers.Validator.validate(Validator.java:44) = 
+validation /home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is not valid because cvc-complex-type.2.4.a: Invalid content was found starting with element 'washingMachine'. One of '{"http://www.site.com":kettle, "http://www.site.com":termopot, "http://www.site.com":conditioner, "http://www.site.com":microwave, "http://www.site.com":oven, "http://www.site.com":dishwasher, "http://www.site.com":washing_Machine}' is expected.
+
+2014-12-18 19:27:05,893  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:28:06,721  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:28:45,889  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:30:07,233  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:31:08,220  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:33:28,881  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:35:12,733  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:36:05,377  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:36:10,848  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:36:33,839  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:37:18,355  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:37:50,758  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:39:44,124  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:40:28,504  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:44:51,608  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:45:04,262  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:46:02,199  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:46:42,791  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:48:26,558  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:49:29,175  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:50:39,800  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:51:24,850  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 19:52:00,466  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 20:00:08,007  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 20:00:20,697  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 20:00:30,611  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 20:05:37,241  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 20:07:26,176  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 20:11:05,353  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+
+2014-12-18 20:12:06,492  INFO model.parsers.Validator:model.parsers.Validator.validate(Validator.java:41) = 
+/home/nolik/IdeaProjects/forEpam/task1/Appliances/src/appliances.xml is valid.
+

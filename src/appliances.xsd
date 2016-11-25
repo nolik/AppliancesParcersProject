@@ -1,0 +1,146 @@
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.site.com"
+        xmlns:app="http://www.site.com">
+    <element name="appliances">
+        <complexType>
+            <choice maxOccurs="unbounded" minOccurs="0">
+                <element name="kettle" type="app:kettleType"/>
+                <element name="termopot" type="app:termopotType"/>
+                <element name="conditioner" type="app:conditionerType"/>
+                <element name="microwave" type="app:microwaveType"/>
+                <element name="oven" type="app:ovenType"/>
+                <element name="dishwasher" type="app:dishwasherType"/>
+                <element name="washing_Machine" type="app:washingMachineType"/>
+            </choice>
+        </complexType>
+    </element>
+
+    <complexType name="appliance">
+        <sequence>
+            <element name="energy_Efficiency_Class">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="A"/>
+                        <enumeration value="B"/>
+                        <enumeration value="C"/>
+                        <enumeration value="D"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element type="string" name="manufacturer"/>
+            <element type="string" name="model"/>
+            <element type="short" name="power"/>
+            <element type="boolean" name="switched"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="kettleType">
+        <complexContent>
+            <extension base="app:appliance">
+                <sequence>
+                    <element type="integer" name="volume"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+
+    <complexType name="termopotType">
+        <complexContent>
+            <extension base="app:kettleType">
+                <sequence>
+                    <element type="integer" name="max_Holding_Temperature"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="climateAppliancesType">
+        <complexContent>
+            <extension base="app:appliance">
+                <sequence>
+                    <element type="integer" name="service_Area"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="conditionerType">
+        <complexContent>
+            <extension base="app:climateAppliancesType">
+                <sequence>
+                    <element type="string" name="type"/>
+                    <element type="boolean" name="heating"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="furnaceAppliancesType">
+        <complexContent>
+            <extension base="app:appliance">
+                <sequence>
+                    <element type="integer" name="volume_Of_Furnace"/>
+                    <element type="integer" name="mods"/>
+                    <element type="boolean" name="have_Grill"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="microwaveType">
+        <complexContent>
+            <extension base="app:furnaceAppliancesType">
+                <sequence>
+                    <element type="integer" name="power_Waves"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="ovenType">
+        <complexContent>
+            <extension base="app:furnaceAppliancesType">
+                <sequence>
+                    <element type="integer" name="max_Temperature"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="washingAppliancesType">
+        <complexContent>
+            <extension base="app:appliance">
+                <sequence>
+                    <element type="integer" name="water_Consumption"/>
+                    <element type="string" name="washing_Class"/>
+                    <element type="integer" name="number_Of_Programs"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="dishwasherType">
+        <complexContent>
+            <extension base="app:washingAppliancesType">
+                <sequence>
+                    <element type="integer" name="max_Load_Of_Dishes"/>
+                    <element type="string" name="type_Of_Drying"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="washingMachineType">
+        <complexContent>
+            <extension base="app:washingAppliancesType">
+                <sequence>
+                    <element type="integer" name="max_Load"/>
+                    <element type="integer" name="max_Spin_Speed"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+</schema>
